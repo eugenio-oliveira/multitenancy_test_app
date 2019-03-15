@@ -34,6 +34,7 @@ gem "twitter-bootstrap-rails"
 gem "jquery-rails"
 gem 'devise'
 gem 'devise-bootstrapped'
+gem 'apartment'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
