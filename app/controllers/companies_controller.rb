@@ -3,6 +3,12 @@ class CompaniesController < ApplicationController
     @companies = Company.all
   end
 
+  def show
+    @company = Company.find_by(subdomain: request.subdomain)
+    @employees = Employee.all
+    @empoyee = Employee.new
+  end
+
   def new
     @company = Company.new
   end
